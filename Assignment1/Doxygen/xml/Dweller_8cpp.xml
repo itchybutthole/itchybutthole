@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="Dweller_8cpp" kind="file" language="C++">
+    <compoundname>Dweller.cpp</compoundname>
+    <includes refid="Dweller_8h" local="yes">Dweller.h</includes>
+    <incdepgraph>
+      <node id="39">
+        <label>GameObject.h</label>
+        <link refid="GameObject_8h"/>
+        <childnode refid="40" relation="include">
+        </childnode>
+      </node>
+      <node id="40">
+        <label>string</label>
+      </node>
+      <node id="41">
+        <label>Vec2D.h</label>
+        <link refid="Vec2D_8h"/>
+      </node>
+      <node id="38">
+        <label>Dweller.h</label>
+        <link refid="Dweller_8h"/>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+      </node>
+      <node id="37">
+        <label>Assignment1/Dweller.cpp</label>
+        <link refid="Dweller.cpp"/>
+        <childnode refid="38" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="Dweller_8h" kindref="compound">Dweller.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="classDweller_1a3cc4e16d5b5bd7cd6e1957773e2a51eb" refkind="member"><highlight class="normal"><ref refid="classDweller_1a3cc4e16d5b5bd7cd6e1957773e2a51eb" kindref="member">Dweller::Dweller</ref>()</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="classDweller_1a945463f38d3355b39be69edccad1b749" refkind="member"><highlight class="normal"><ref refid="classDweller_1a3cc4e16d5b5bd7cd6e1957773e2a51eb" kindref="member">Dweller::Dweller</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal">&amp;<sp/>name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&amp;<sp/>specialValue)</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classDweller_1a6c07aab61263ad33f701a132d5e5a97d" kindref="member">position</ref>.<ref refid="classVec2D_1acdf2af9bd497c4091b6fb2695b41e3e8" kindref="member">exist</ref>.<ref refid="structVec2D_1_1axis_1ad4b485a4bbe980f9b61072894c380728" kindref="member">x</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classDweller_1a6c07aab61263ad33f701a132d5e5a97d" kindref="member">position</ref>.<ref refid="classVec2D_1acdf2af9bd497c4091b6fb2695b41e3e8" kindref="member">exist</ref>.<ref refid="structVec2D_1_1axis_1a59c49fb4d0d000a665c5ddd697648d8a" kindref="member">y</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classDweller_1a83230dd69540a3b8b3987020623357be" kindref="member">SPECIAL</ref><sp/>=<sp/>0000000;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="classDweller_1a2499017d809b7b72f1647eafc0107f1e" refkind="member"><highlight class="normal"><ref refid="classDweller_1a2499017d809b7b72f1647eafc0107f1e" kindref="member">Dweller::~Dweller</ref>()</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Assignment1/Dweller.cpp"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="classGameObject" kind="class" language="C++" prot="public">
+    <compoundname>GameObject</compoundname>
+    <derivedcompoundref refid="classDweller" prot="public" virt="non-virtual">Dweller</derivedcompoundref>
+    <includes refid="GameObject_8h" local="no">GameObject.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classGameObject_1a18592efb7fa1e54f929f3e377f41cd5b" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string GameObject::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assignment1/GameObject.h" line="10" column="1" bodyfile="Assignment1/GameObject.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classGameObject_1a1633415f523cc2c9e8066b76b6b46675" prot="protected" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int GameObject::count</definition>
+        <argsstring></argsstring>
+        <name>count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assignment1/GameObject.h" line="12" column="1" bodyfile="Assignment1/GameObject.h" bodystart="12" bodyend="-1"/>
+        <referencedby refid="classGameObject_1ab4a9826131a3c4116970e4e1e70587ff" compoundref="GameObject_8cpp" startline="8" endline="11">GameObject</referencedby>
+        <referencedby refid="classGameObject_1ab82dfdb656f9051c0587e6593b2dda97" compoundref="GameObject_8cpp" startline="14" endline="17">~GameObject</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classGameObject_1a0348e3ee2e83d56eafca7a3547f432c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>GameObject::GameObject</definition>
+        <argsstring>()</argsstring>
+        <name>GameObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assignment1/GameObject.h" line="14" column="1" bodyfile="Assignment1/GameObject.cpp" bodystart="3" bodyend="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classGameObject_1ab4a9826131a3c4116970e4e1e70587ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>GameObject::GameObject</definition>
+        <argsstring>(const string &amp;)</argsstring>
+        <name>GameObject</name>
+        <param>
+          <type>const string &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assignment1/GameObject.h" line="15" column="1" bodyfile="Assignment1/GameObject.cpp" bodystart="8" bodyend="11"/>
+        <references refid="classGameObject_1a1633415f523cc2c9e8066b76b6b46675" compoundref="GameObject_8h" startline="12">count</references>
+      </memberdef>
+      <memberdef kind="function" id="classGameObject_1ab82dfdb656f9051c0587e6593b2dda97" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>GameObject::~GameObject</definition>
+        <argsstring>()</argsstring>
+        <name>~GameObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assignment1/GameObject.h" line="16" column="1" bodyfile="Assignment1/GameObject.cpp" bodystart="14" bodyend="17"/>
+        <references refid="classGameObject_1a1633415f523cc2c9e8066b76b6b46675" compoundref="GameObject_8h" startline="12">count</references>
+      </memberdef>
+      <memberdef kind="function" id="classGameObject_1ab7c8021dd4caa10448c87396db933e94" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string GameObject::getName</definition>
+        <argsstring>(void)</argsstring>
+        <name>getName</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assignment1/GameObject.h" line="17" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="34">
+        <label>Dweller</label>
+        <link refid="classDweller"/>
+        <childnode refid="33" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>GameObject</label>
+        <link refid="classGameObject"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="37">
+        <label>string</label>
+      </node>
+      <node id="36">
+        <label>int</label>
+      </node>
+      <node id="35">
+        <label>GameObject</label>
+        <link refid="classGameObject"/>
+        <childnode refid="36" relation="usage">
+          <edgelabel>count</edgelabel>
+        </childnode>
+        <childnode refid="37" relation="usage">
+          <edgelabel>name</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Assignment1/GameObject.h" line="8" column="1" bodyfile="Assignment1/GameObject.h" bodystart="7" bodyend="19"/>
+    <listofallmembers>
+      <member refid="classGameObject_1a1633415f523cc2c9e8066b76b6b46675" prot="protected" virt="non-virtual"><scope>GameObject</scope><name>count</name></member>
+      <member refid="classGameObject_1a0348e3ee2e83d56eafca7a3547f432c4" prot="public" virt="non-virtual"><scope>GameObject</scope><name>GameObject</name></member>
+      <member refid="classGameObject_1ab4a9826131a3c4116970e4e1e70587ff" prot="public" virt="non-virtual"><scope>GameObject</scope><name>GameObject</name></member>
+      <member refid="classGameObject_1ab7c8021dd4caa10448c87396db933e94" prot="public" virt="non-virtual"><scope>GameObject</scope><name>getName</name></member>
+      <member refid="classGameObject_1a18592efb7fa1e54f929f3e377f41cd5b" prot="private" virt="non-virtual"><scope>GameObject</scope><name>name</name></member>
+      <member refid="classGameObject_1ab82dfdb656f9051c0587e6593b2dda97" prot="public" virt="non-virtual"><scope>GameObject</scope><name>~GameObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

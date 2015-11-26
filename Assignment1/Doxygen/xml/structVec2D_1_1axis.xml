@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="structVec2D_1_1axis" kind="struct" language="C++" prot="public">
+    <compoundname>Vec2D::axis</compoundname>
+    <includes refid="Vec2D_8h" local="no">Vec2D.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structVec2D_1_1axis_1ad4b485a4bbe980f9b61072894c380728" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Vec2D::axis::x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assignment1/Vec2D.h" line="12" column="1" bodyfile="Assignment1/Vec2D.h" bodystart="12" bodyend="-1"/>
+        <referencedby refid="classDweller_1a945463f38d3355b39be69edccad1b749" compoundref="Dweller_8cpp" startline="8" endline="13">Dweller::Dweller</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structVec2D_1_1axis_1a59c49fb4d0d000a665c5ddd697648d8a" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Vec2D::axis::y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assignment1/Vec2D.h" line="13" column="1" bodyfile="Assignment1/Vec2D.h" bodystart="13" bodyend="-1"/>
+        <referencedby refid="classDweller_1a945463f38d3355b39be69edccad1b749" compoundref="Dweller_8cpp" startline="8" endline="13">Dweller::Dweller</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="23">
+        <label>double</label>
+      </node>
+      <node id="22">
+        <label>Vec2D::axis</label>
+        <link refid="structVec2D_1_1axis"/>
+        <childnode refid="23" relation="usage">
+          <edgelabel>x</edgelabel>
+          <edgelabel>y</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Assignment1/Vec2D.h" line="11" column="1" bodyfile="Assignment1/Vec2D.h" bodystart="10" bodyend="14"/>
+    <listofallmembers>
+      <member refid="structVec2D_1_1axis_1ad4b485a4bbe980f9b61072894c380728" prot="public" virt="non-virtual"><scope>Vec2D::axis</scope><name>x</name></member>
+      <member refid="structVec2D_1_1axis_1a59c49fb4d0d000a665c5ddd697648d8a" prot="public" virt="non-virtual"><scope>Vec2D::axis</scope><name>y</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

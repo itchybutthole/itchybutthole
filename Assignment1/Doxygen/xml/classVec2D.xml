@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="classVec2D" kind="class" language="C++" prot="public">
+    <compoundname>Vec2D</compoundname>
+    <includes refid="Vec2D_8h" local="no">Vec2D.h</includes>
+    <innerclass refid="structVec2D_1_1axis" prot="public">Vec2D::axis</innerclass>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classVec2D_1acdf2af9bd497c4091b6fb2695b41e3e8" prot="public" static="no" mutable="no">
+        <type><ref refid="structVec2D_1_1axis" kindref="compound">axis</ref></type>
+        <definition>axis Vec2D::exist</definition>
+        <argsstring></argsstring>
+        <name>exist</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assignment1/Vec2D.h" line="15" column="1" bodyfile="Assignment1/Vec2D.h" bodystart="15" bodyend="-1"/>
+        <referencedby refid="classDweller_1a945463f38d3355b39be69edccad1b749" compoundref="Dweller_8cpp" startline="8" endline="13">Dweller::Dweller</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classVec2D_1aa3e3abb842bff81c10e8539c1689d578" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Vec2D::Vec2D</definition>
+        <argsstring>()</argsstring>
+        <name>Vec2D</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assignment1/Vec2D.h" line="7" column="1" bodyfile="Assignment1/Vec2D.cpp" bodystart="3" bodyend="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classVec2D_1a7b7e1d9c94888dabaed54e798cd3ac45" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Vec2D::Vec2D</definition>
+        <argsstring>(double, double)</argsstring>
+        <name>Vec2D</name>
+        <param>
+          <type>double</type>
+        </param>
+        <param>
+          <type>double</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assignment1/Vec2D.h" line="8" column="1" bodyfile="Assignment1/Vec2D.cpp" bodystart="8" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classVec2D_1a3609128b9388f58c9feff47b7c2dccc1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Vec2D::~Vec2D</definition>
+        <argsstring>()</argsstring>
+        <name>~Vec2D</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assignment1/Vec2D.h" line="9" column="1" bodyfile="Assignment1/Vec2D.cpp" bodystart="13" bodyend="15"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="41">
+        <label>double</label>
+      </node>
+      <node id="39">
+        <label>Vec2D</label>
+        <link refid="classVec2D"/>
+        <childnode refid="40" relation="usage">
+          <edgelabel>exist</edgelabel>
+        </childnode>
+      </node>
+      <node id="40">
+        <label>Vec2D::axis</label>
+        <link refid="structVec2D_1_1axis"/>
+        <childnode refid="41" relation="usage">
+          <edgelabel>x</edgelabel>
+          <edgelabel>y</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Assignment1/Vec2D.h" line="5" column="1" bodyfile="Assignment1/Vec2D.h" bodystart="4" bodyend="16"/>
+    <listofallmembers>
+      <member refid="classVec2D_1acdf2af9bd497c4091b6fb2695b41e3e8" prot="public" virt="non-virtual"><scope>Vec2D</scope><name>exist</name></member>
+      <member refid="classVec2D_1aa3e3abb842bff81c10e8539c1689d578" prot="public" virt="non-virtual"><scope>Vec2D</scope><name>Vec2D</name></member>
+      <member refid="classVec2D_1a7b7e1d9c94888dabaed54e798cd3ac45" prot="public" virt="non-virtual"><scope>Vec2D</scope><name>Vec2D</name></member>
+      <member refid="classVec2D_1a3609128b9388f58c9feff47b7c2dccc1" prot="public" virt="non-virtual"><scope>Vec2D</scope><name>~Vec2D</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
